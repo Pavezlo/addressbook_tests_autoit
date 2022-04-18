@@ -86,7 +86,7 @@ namespace addressbook_tests_autoit
             int a = int.Parse(aux.ControlTreeView(GROUPWINTITLE, "", "WindowsForms10.SysTreeView32.app.0.2c908d51",
                 "GetItemCount", "#0", ""));
             CloseGroupsDialogue();
-            return a>0;
+            return a>1;
         }
 
         public int GetGroupCount()
